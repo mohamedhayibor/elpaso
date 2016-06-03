@@ -1,0 +1,33 @@
+{
+  "name": "elpaso",
+  "version": "1.0.0",
+  "description": "Get available bikes and docks in El paso stations.",
+  "bin": {
+    "getbikes": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedhayibor/elpaso.git"
+  },
+  "keywords": [
+    "Bikes",
+    "Bike",
+    "El-paso",
+    "bike-sharing",
+    "#fit"
+  ],
+  "author": "Bocoup Attendees June 2 20016",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohamedhayibor/elpaso/issues"
+  },
+  "homepage": "https://github.com/mohamedhayibor/elpaso#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "meow": "^3.7.0",
+    "request": "^2.72.0"
+  }
+}
